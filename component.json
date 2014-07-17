@@ -1,0 +1,15 @@
+{
+  "name": "noflo-three",
+  "description": "Components for threejs.",
+  "author": "Vilson Vieira <vilson@void.cc>",
+  "repo": "vilson/noflo-three",
+  "version": "0.1.0",
+  "keywords": [
+  ],
+  "dependencies": {
+    "noflo/noflo": "*"
+  },
+  "scripts": [
+    "index.js"
+  ]
+}
