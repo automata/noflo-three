@@ -36,5 +36,16 @@
     "grunt-noflo-manifest": "~0.1.11",
     "grunt-noflo-browser": "^0.1.1"
   },
-  "keywords": []
+  "keywords": [],
+  "noflo": {
+    "components": {
+      "BoxGeometry": "components/BoxGeometry.coffee",
+      "Camera": "components/Camera.coffee",
+      "Mesh": "components/Mesh.coffee",
+      "MeshBasicMaterial": "components/MeshBasicMaterial.coffee",
+      "Scene": "components/Scene.coffee",
+      "Vector3": "components/Vector3.coffee",
+      "WebGLRenderer": "components/WebGLRenderer.coffee"
+    }
+  }
 }

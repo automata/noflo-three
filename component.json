@@ -4,12 +4,33 @@
   "author": "Vilson Vieira <vilson@void.cc>",
   "repo": "vilson/noflo-three",
   "version": "0.1.0",
-  "keywords": [
-  ],
+  "keywords": [],
   "dependencies": {
     "noflo/noflo": "*"
   },
   "scripts": [
-    "index.js"
-  ]
+    "index.js",
+    "vendor/three.min.js",
+    "components/WebGLRenderer.coffee",
+    "components/BoxGeometry.coffee",
+    "components/Camera.coffee",
+    "components/Mesh.coffee",
+    "components/MeshBasicMaterial.coffee",
+    "components/Scene.coffee",
+    "components/Vector3.coffee"
+  ],
+  "json": [
+    "component.json"
+  ],
+  "noflo": {
+    "components": {
+      "BoxGeometry": "components/BoxGeometry.coffee",
+      "Camera": "components/Camera.coffee",
+      "Mesh": "components/Mesh.coffee",
+      "MeshBasicMaterial": "components/MeshBasicMaterial.coffee",
+      "Scene": "components/Scene.coffee",
+      "Vector3": "components/Vector3.coffee",
+      "WebGLRenderer": "components/WebGLRenderer.coffee"
+    }
+  }
 }
